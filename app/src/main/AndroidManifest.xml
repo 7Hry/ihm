@@ -6,6 +6,7 @@
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
         </activity>
+        <activity android:name=".SolverActivity" android:exported="false"/>
         <service android:name=".CaptureService" android:exported="false" android:foregroundServiceType="mediaProjection"/>
         <service android:name=".OverlayService" android:exported="false"/>
         <service android:name=".GameAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:exported="true">
